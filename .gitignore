@@ -1,0 +1,63 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+*.env
+
+# Pytest / coverage / logs
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+*.log
+
+# VSCode
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI app-specific
+*.sqlite3
+instance/
+backend/data/index/
+backend/data/*.pkl
+backend/data/*.index
+backend/data/*.json
+
+# Ollama
+ollama/
+
+# Frontend (Vite + React)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Build output
+dist/
+build/
+
+# Dependency lock (if using pip-tools or poetry and you don't want to commit them)
+poetry.lock
+requirements.txt
+*.lock
+
+# Others
+*.bak
+*.tmp
+
+# Egg-info
+*.egg-info/
